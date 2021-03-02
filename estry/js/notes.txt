@@ -1,0 +1,124 @@
+'use strict';
+
+let username = prompt("whats your name and lets play a game ?? !!")
+
+alert("welcome  " + " " + username);
+let i = 0;
+
+
+while(i<5) {
+  let a = prompt( "is me a gamer ?").toLowerCase();
+   if(a =='yes' || a =='y')
+   {
+    alert('good jop !');
+    
+   }
+   else if ( a == 'no' || a == 'n'){
+       alert("nope");
+       
+       
+       
+   }else{
+       alert('wrong input');
+       
+       
+   }
+   
+   i++
+
+}
+
+
+
+
+while(i<5) {
+
+  let b = prompt( "do i like black and white ?").toLowerCase();
+   if(b =='yes' || b =='y')
+   {
+    alert('good jop !');
+    
+   }
+   else if ( b == 'no' || b == 'n'){
+       alert("nope");
+       
+       
+       i++
+   }else{
+       alert('wrong input');
+       
+       
+   }
+   i++
+     
+
+}
+
+while(i<5) {
+
+
+  let c = prompt( "is my age 27 ?").toLowerCase();
+   if(c =='yes' || c =='y')
+   {
+    alert('good jop !');
+    
+   }
+   else if ( c == 'no' || c == 'n'){
+       alert("nope");
+       
+       
+       i++
+   }else{
+       alert('wrong input');
+       
+       
+   } 
+   
+}
+
+
+while(i<5) {
+
+  let a = prompt( "is me pro ?").toLowerCase();
+   if(a =='yes' || a =='y')
+   {
+    alert('good jop !');
+    
+   }
+   else if ( a == 'no' || a == 'n'){
+       alert("nope");
+       
+       
+       i++
+   }else{
+       alert('wrong input');
+       
+       
+   }  
+
+
+}
+
+while(i<5) {
+
+  let b = prompt( "is me a pc gamer ?").toLowerCase();
+   if(b =='yes' || b =='y')
+   {
+    alert('good jop !');
+    
+   }
+   else if ( b == 'no' || b == 'n'){
+       alert("nope");
+       
+       
+       i++
+   }else{
+       alert('wrong input');
+       
+       
+   }  
+
+alert("nice to play with you  " + " " + username);
+
+}
+

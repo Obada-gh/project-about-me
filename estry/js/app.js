@@ -11,13 +11,13 @@ function tq1() {
     let a = prompt("is me a gamer ?").toLowerCase();
     if (a == 'yes' || a == 'y') {
         alert('good job !');
-        console.log("good job!")
+        
         score++
 
     }
     else if (a == 'no' || a == 'n') {
         alert("nope");
-        console.log("nope")
+        
 
 
 
@@ -25,14 +25,14 @@ function tq1() {
     else {
         do {
             alert("wrong input")
-            console.log("wrong input")
+           
             a = prompt("is me a gamer ?").toLowerCase();
 
 
             if (a == 'yes' || a == 'y') {
                 i = 5
                 alert('good jop !');
-                console.log("good jop!")
+                
                 score++
             }
 
@@ -40,7 +40,7 @@ function tq1() {
 
                 if (a == 'no' || a == 'n') {
                     alert("nope");
-                    console.log("nope")
+                    
                     i = 5
                 }
             }
@@ -56,12 +56,12 @@ function tq2() {
     let b = prompt("is my age 27 ?").toLowerCase();
     if (b == 'yes' || b == 'y') {
         alert('good jop !');
-        console.log("good jop!")
+        
         score++
     }
     else if (b == 'no' || b == 'n') {
         alert("nope");
-        console.log("nope")
+       
 
 
 
@@ -75,7 +75,7 @@ function tq2() {
             if (b == 'yes' || b == 'y') {
                 ii = 5
                 alert('good jop !');
-                console.log("good jop!")
+                
                 score++
             }
 
@@ -83,7 +83,7 @@ function tq2() {
 
                 if (b == 'no' || b == 'n') {
                     alert("nope");
-                    console.log("nope")
+                    
                     ii = 5
                 }
             }
@@ -100,12 +100,12 @@ function tq2() {
         let c = prompt("do i like the black color ?").toLowerCase();
         if (c == 'yes' || c == 'y') {
             alert('good jop !');
-            console.log("good jop!")
+            
             score++
         }
         else if (c == 'no' || c == 'n') {
             alert("nope");
-            console.log("nope")
+           
 
         }
         else {
@@ -117,7 +117,7 @@ function tq2() {
                 if (c == 'yes' || c == 'y') {
                     iii = 5
                     alert('good jop !');
-                    console.log("good jop!")
+                    
                     score++
                 }
 
@@ -125,7 +125,7 @@ function tq2() {
 
                     if (c == 'no' || c == 'n') {
                         alert("nope");
-                        console.log("nope")
+                        
                         iii = 5
                     }
                 }
@@ -142,12 +142,12 @@ function tq2() {
         let d = prompt("is me pro ?").toLowerCase();
         if (d == 'yes' || d == 'y') {
             alert('good jop !');
-            console.log("good jop!")
+            
             score++
         }
         else if (d == 'no' || d == 'n') {
             alert("nope");
-            console.log("nope")
+           
 
 
 
@@ -162,7 +162,7 @@ function tq2() {
                 if (d == 'yes' || d == 'y') {
                     iv = 5
                     alert('good jop !');
-                    console.log("good jop!")
+                    
                     score++
                 }
 
@@ -170,7 +170,7 @@ function tq2() {
 
                     if (d == 'no' || d == 'n') {
                         alert("nope");
-                        console.log("nope")
+                        
                         iv = 5
                     }
                 }
@@ -186,27 +186,26 @@ function tq2() {
         let e = prompt("is my setup black ?").toLowerCase();
         if (e == 'yes' || e == 'y') {
             alert('good jop !');
-            console.log("good jop!")
+            
             score++
         }
         else if (e == 'no' || e == 'n') {
             alert("nope");
-            console.log("nope")
-
+            
 
 
         }
         else {
             do {
                 alert("wrong input")
-                console.log("wrong input")
+                
                 e = prompt("is my setup is black ?").toLowerCase();
 
 
                 if (e == 'yes' || e == 'y') {
                     v = 5
                     alert('good jop !');
-                    console.log("good jop!")
+                    
                     score++
                 }
 
@@ -214,7 +213,7 @@ function tq2() {
 
                     if (e == 'no' || e == 'n') {
                         alert("nope");
-                        console.log("nope")
+                        
                         v = 5
                     }
                 }
@@ -235,23 +234,23 @@ function tq2() {
 
             if (q6 < n) {
                 alert("low")
-                console.log("low")
+                
             }
 
             else if (q6 > n) {
                 alert("high")
-                console.log("high")
+                
             }
 
             else if (q6 == n) {
                 alert("good jop !")
-                console.log("good jop!")
+                
                 s = 5
                 score++
             }
             else {
                 alert("wrong input")
-                console.log("wrong input")
+                
             }
             s++
 
@@ -273,27 +272,27 @@ function tq2() {
 
             if (q7 == gpus[0]) {
                 alert("good jop !")
-                console.log("good jop!")
+                
                 score++
                 s = 7
             }
 
             else if (q7 == gpus[1]) {
                 alert("good jop !")
-                console.log("good jop!")
+                
                 score++
                 s = 7
             }
 
             else if (q7 == gpus[2]) {
                 alert("good jop !")
-                console.log("good jop!")
+                
                 score++
                 s = 7
             }
             else {
                 alert("wrong input")
-                console.log("wrong input")
+                
             }
             s++
 
